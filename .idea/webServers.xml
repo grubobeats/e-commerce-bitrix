@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8fb6be36-e4f6-4dcf-a406-f7599947a07b" name="bitrix_test" url="http://exelerothemes.com">
+        <fileTransfer host="exelerothemes.com" port="21" rootFolder="/public_html/bitrix">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
