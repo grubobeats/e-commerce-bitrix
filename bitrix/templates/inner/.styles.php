@@ -1,3 +1,5 @@
 <?
-return false;
+return array (
+  'huj' => 'Роав',
+);
 ?>

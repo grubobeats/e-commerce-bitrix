@@ -8,7 +8,7 @@ IncludeTemplateLangFile(__FILE__);
     <?$APPLICATION->ShowHead();?>
     <meta charset="windows-1251">
     <title><?$APPLICATION->ShowTitle()?></title>
-    <link rel="stylesheet" href="/bitrix/templates/main/template_style.css"/>
+    <link rel="stylesheet" href="/bitrix/templates/.default/template_styles.css"/>
     <script type="text/javascript" src="/bitrix/templates/.default/js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="/bitrix/templates/.default/js/slides.min.jquery.js"></script>
     <script type="text/javascript" src="/bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
@@ -24,7 +24,7 @@ IncludeTemplateLangFile(__FILE__);
             <table>
                 <tr>
                     <td rowspan="2" class="hd_companyname">
-                        <h1><a href="">Мебельный магазин</a></h1>
+                        <h1><a href=""><?$APPLICATION->ShowTitle()?></a></h1>
                     </td>
                     <td rowspan="2" class="hd_txarea">
                         <span class="tel">8 (495) 212-85-06</span>	<br/>
@@ -65,7 +65,7 @@ IncludeTemplateLangFile(__FILE__);
             </table>
             <div class="nv_topnav">
                 <ul>
-                    <li><a class="menu-img-fon" style="background-image: url(images/nv_home.png);" href="/"><span></span></a></li>
+                    <li><a class="menu-img-fon" style="background-image: url(bitrix/templates/.default/images/nv_home.png);" href="/"><span></span></a></li>
                     <li><a href=""><span>Компания</span></a>
                         <ul>
                             <li><a href="">Пункт 1</a></li>
