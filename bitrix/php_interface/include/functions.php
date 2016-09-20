@@ -18,4 +18,12 @@ function dump($var, $die, $all = false) {
     }
 }
 
+function vdump($var) {
+    ?>
+        <pre><? var_dump($var); ?></pre>
+    <?
+}
+
+
+
 ?>
