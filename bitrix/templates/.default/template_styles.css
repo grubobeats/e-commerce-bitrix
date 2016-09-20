@@ -191,6 +191,7 @@ input{outline:none !important}
     border-radius:6px;
     position:relative;
     bottom:-17px;
+    height: auto;
 }
 .nv_topnav ul{
     display:block;
